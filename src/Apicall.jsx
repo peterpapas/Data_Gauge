@@ -3,7 +3,7 @@ import axios from 'axios';
 import $ from 'jquery';
 
 
-function CoinCurrencies() {const [axiosData, setAxiosData] = useState([]);
+function Apicall() {const [axiosData, setAxiosData] = useState([]);
   const [fetchData, setFetchData] = useState([]);
   const [jqueryData, setJqueryData] = useState([]);
   const [xmlData, setXmlData] = useState([]);
@@ -184,4 +184,4 @@ function CoinCurrencies() {const [axiosData, setAxiosData] = useState([]);
 }
 
 
-export default CoinCurrencies;
+export default Apicall;

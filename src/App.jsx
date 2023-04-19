@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import CoinCurrencies from './CoinCurrencies'
-import gauge from '../public/Gauge.svg'
+import Apicall from './Apicall'
+import gauge from './assets/Gauge.svg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,7 +33,7 @@ function App() {
       By comparing the different data request methods, users can gain a better understanding of the performance characteristics of each method and choose the most appropriate one for their specific needs.&nbsp;
     </p>
   </div>
-      <CoinCurrencies/>
+      <Apicall/>
     </div>
   )
 }
